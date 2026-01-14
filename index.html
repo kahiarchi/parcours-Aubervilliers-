@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic Urbain - Kahiarchi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.5; 
+            color: #333; 
+            max-width: 950px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background-color: #fff;
+        }
+        h1 { 
+            font-size: 2.0em; 
+            text-align: center; 
+            color: #000; 
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            border-bottom: 3px solid #333;
+            padding-bottom: 10px;
+        }
+        h2 { 
+            font-size: 1.6em; 
+            color: #2c3e50; 
+            margin-top: 25px; 
+            margin-bottom: 10px;
+            border-left: 5px solid #2980b9;
+            padding-left: 10px;
+        }
+        p { text-align: justify; margin-bottom: 10px; margin-top: 0; }
+        .media-container { text-align: center; margin: 10px 0; }
+        .img-diag { 
+            max-width: 80%; 
+            height: auto; 
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .btn-carte {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #2980b9;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin: 10px 0;
+            transition: background 0.3s;
+        }
+        .btn-carte:hover { background-color: #1a5276; }
+        .legende {
+            font-size: 0.9em;
+            font-style: italic;
+            color: #666;
+            margin-top: 5px;
+            display: block;
+        }
+        .conclusion-box {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>"De l'Espace à l'Émotion : Diagnostic croisé du secteur Plaine-Condorcet-Aubervilliers"</h1>
+
+    <h2>Introduction générale</h2>
+    <p>Ce projet propose une lecture multidimensionnelle du territoire entre le Campus Condorcet, la Plaine Saint-Denis et le tissu ancien d’Aubervilliers. À travers trois approches complémentaires, il explore le lien entre la structure physique de la ville et le ressenti du marcheur. Le parcours photographique géoréférencé capture la matérialité du terrain et les émotions instantanées à chaque étape. Le camembert fonctionnel met en évidence l’organisation polarisée du quartier, dominée par la recherche, les médias et le commerce, plutôt qu’un tissu urbain homogène. Enfin, l’analyse du rythme émotionnel révèle comment la ville influence les perceptions et les émotions du marcheur. Ces visualisations mettent en lumière tensions, moments de confort et transitions sensibles entre espaces anciens, modernes et en mutation, dressant le portrait d’une ville active et affective.</p>
+
+    <h2>Visualisation 1 : Cartographie interactive et sensible</h2>
+    <p>Cette visualisation propose une immersion directe dans le parcours photographique, en combinant localisation, temporalité et ressenti du marcheur. Chaque marqueur bleu sur la carte est interactif : en cliquant dessus, il révèle l’image capturée à cet instant, les coordonnées GPS précises, l’heure exacte et le sentiment associé. L’objectif de cette carte est de rendre visible la dynamique de la déambulation, en montrant comment le parcours traverse différents pôles fonctionnels et comment chacun d’eux influence la perception et l’expérience sensible du marcheur.</p>
+    <div class="media-container">
+        <a href="carte.html" class="btn-carte">ACCÉDER À LA CARTE INTERACTIVE (Visualisation 01)</a>
+    </div>
+
+    <h2>Visualisation 2 : Répartition des pôles fonctionnels</h2>
+    <p>Le camembert montre la répartition des grands pôles fonctionnels en proportion de la surface du territoire observé le long du parcours. Cette représentation révèle un territoire fortement polarisé, structuré par quelques grands ensembles : le pôle universitaire et de recherche au rôle central, le pôle arts et médias issu de la reconversion industrielle, le pôle commercial spécialisé, le pôle habitat-commerce ancien et les zones en transformation.</p>
+    <div class="media-container">
+        <img src="Visualisation%2002.png" alt="Camembert fonctionnel" class="img-diag">
+        <span class="legende">Répartition spatiale des activités (Visualisation 02)</span>
+    </div>
+
+    <h2>Visualisation 3 : Analyse du Rythme Émotionnel</h2>
+    <p>La Courbe illustre le rythme émotionnel du parcours, alternant différents types d’expériences :</p>
+    
+    <div style="margin-bottom: 15px; padding-left: 20px;">
+        <p style="margin-bottom: 5px;">🟢 <strong>Zones de confort et bien-être :</strong> campus, jardins et équipements récents où le marcheur se sent rassuré.</p>
+        <p style="margin-bottom: 5px;">🟡 <strong>Espaces de curiosité et de stimulation :</strong> bâtiments patrimoniaux, suscitant intérêt et émerveillement.</p>
+        <p style="margin-bottom: 5px;">🟣 <strong>Lieux ambivalents :</strong> franges urbaines ou constructions anciennes où coexistent plaisir et incertitude.</p>
+        <p style="margin-bottom: 5px;">🟠 <strong>Espaces sollicitants ou fonctionnels :</strong> zones d’activités et axes de circulation demandant de l'énergie.</p>
+        <p style="margin-bottom: 15px;">🔵 <strong>Poches de malaise ou de déception :</strong> friches ou zones délaissées générant inquiétude et tristesse.</p>
+    </div>
+
+    <p>Ce parcours montre que la ville n’est pas neutre : chaque espace influence directement les émotions du marcheur. Le rythme de la promenade rend visibles les tensions, les moments de plaisir et les transitions sensibles, traduisant la diversité affective du territoire.</p>
+
+    <div class="media-container">
+        <img src="Visualisation%2003.png" alt="Courbe émotionnelle" style="width: 95%; max-width: 95%; height: auto; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <span class="legende" style="display: block; margin-top: 8px; font-style: italic; color: #666;">Évolution du ressenti au fil de la traversée (Visualisation 03)</span>
+    </div>
+
+    <div class="conclusion-box">
+        <h2>Conclusion générale</h2>
+        <p>En croisant ces trois approches, l’étude montre que la perception de la ville est intimement liée aux usages et aux expériences vécues par le marcheur. Les pôles universitaires et créatifs offrent des zones de confort, de stimulation et de découverte, tandis que les zones en transformation ou de transition révèlent des creux émotionnels, illustrant les fragilités et les tensions du tissu urbain. La compréhension de ces dynamiques sensibles et fonctionnelles permet de mieux analyser comment le territoire façonne les perceptions et les expériences des habitants et visiteurs.</p>
+    </div>
+
+</body>
+</html>
